@@ -1,5 +1,5 @@
 {
-  "name": "sandbox-js",
+  "name": "sandbox",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
@@ -7,6 +7,10 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "sass": "^1.35.2"
+  },
+  "scripts": {
+    "scss": "sass scss/main.scss css/main.css --no-source-map -w"
   }
 }
